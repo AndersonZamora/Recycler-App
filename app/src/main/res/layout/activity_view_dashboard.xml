@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewDashboard.viewDashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:id="@+id/logout_app"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_margin="20dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_outline_account_circle_24" />
+
+        <ImageView
+            android:id="@+id/logo_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-30dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/log_re" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_recycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/RECYCLE"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/RECYCLE"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_accumulated"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/ACCUMULATED_POINTS"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ACCUMULATED_POINTS"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_materials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/RECYCLED_MATERIALS"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/RECYCLED_MATERIALS"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/EVENTS"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EVENTS"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_crafts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/RECYCLING_CRAFTS"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/RECYCLING_CRAFTS"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_collection_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/RECYCLE"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/COLLECTION_POINTS"
+                android:gravity="center"
+                android:padding="10dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/button_redeem_point"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            app:cardBackgroundColor="@color/ACCUMULATED_POINTS"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="1dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/REDEEM_POINTS"
+                android:gravity="center"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textColor="@color/whiteApp"
+                android:textSize="20sp" />
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

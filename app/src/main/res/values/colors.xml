@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="whiteApp">#ffffff</color>
+    <color name="triadicApp">#57bc9b</color>
+    <color name="buttonLogInColor">#FF8F00</color>
+    <color name="textColor">#262626</color>
+    <color name="buttonLogUpColor">#2E7D32</color>
+    <color name="buttonSendColor">#B71C1C</color>
+
+    <color name="RECYCLE">#355723</color>
+    <color name="ACCUMULATED_POINTS">#629C44</color>
+    <color name="RECYCLED_MATERIALS">#99A534</color>
+    <color name="EVENTS">#C1D045</color>
+    <color name="RECYCLING_CRAFTS">#92D36E</color>
+    <string name="color">#FF000000</string>
+</resources>
